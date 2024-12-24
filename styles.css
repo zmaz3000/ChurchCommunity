@@ -1,0 +1,162 @@
+root{
+    height: 100vh;
+    width: 100vw;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F6F4F0;
+}
+
+
+
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.navigationcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* margin-top: 25px; */
+    width: 25%;
+    padding: 25px;
+   
+    height: 100vh;
+}
+
+.navigationitem{
+    display: flex;
+    
+}
+
+.navlinks{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.navlinks:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    width: 100%;
+    background-color: gray;
+}
+
+.navlinks:active{
+    opacity: 0.8;
+    width: 100%;
+    background-color: gray;
+}
+
+.eventscontainer{
+    display: flex;
+    flex-direction: column;
+  gap: 2.5rem;
+  align-items: center;
+    flex-grow: 8;
+    padding-top: 1.5rem;
+}
+
+.individualevent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 75%;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+.profilepic{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+
+.topflex{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.eventaction{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.slots{
+    opacity: 0.5;
+}
+
+.profilename{
+    font-style: italic;
+    font-size: 1rem;
+}
+
+#mainprofilepic:hover{
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+.filtercontainer{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+.containerforvertical{
+    display: flex;
+    flex-direction: column;
+}
+
+.filters{
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+.filters:active{
+    background-color: lightgray;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  .active {
+    background-color: #2E5077;
+    color: white;
+  }
+
+  .buttongroup{
+    display: flex;
+    gap: 1rem;
+  }
