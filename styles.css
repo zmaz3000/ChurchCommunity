@@ -160,3 +160,99 @@ ul {
     display: flex;
     gap: 1rem;
   }
+
+  .parishionercontainer{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    padding: 2rem;
+    padding-top: 5rem;
+    flex-wrap: wrap;
+    width: 100%;
+    row-gap: 5rem;
+  }
+
+  .contentcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+
+  .searchcontainer{
+    align-items: end;
+    padding: 2rem;
+    padding-right: 5rem;
+    display: flex;
+    justify-content: end;
+  }
+
+  #searchbar{
+    border-radius: 0.5rem;
+    border: none;
+    width: 300px;
+    padding: 0.5rem;
+  }
+
+  .parishioneritem{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    box-shadow: -5px 5px 10px #888888;
+    text-align: center;
+    background-image: linear-gradient(to top right, #3E5879 15%, transparent 15%);
+    
+  }
+
+  
+
+  .parishionerimage{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-top: -20rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+
+  .tags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .description{
+    padding: 1rem;
+  }
+
+  .pagination{
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+  }
+
+.aboutdiv{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 2.5rem;
+    row-gap: 1.5rem;
+    text-align: center;
+}
+
+.aboutsection{
+    text-align: center;
+}
+
+  
+  
